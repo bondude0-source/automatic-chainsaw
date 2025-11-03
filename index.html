@@ -105,7 +105,7 @@
         }
         .card h4{margin:0 0 6px;font-size:15px}
         .card p{margin:0;color:var(--muted);font-size:13px}
-        /* booking panel */
+      
         .panel{
             background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);
             border-radius:14px;
@@ -128,7 +128,7 @@
         .social a{color:var(--muted);text-decoration:none;margin-left:8px}
         small{opacity:0.9}
 
-        /* gallery styles */
+      
         .gallery{margin-top:18px; display:grid; grid-template-columns:repeat(2,1fr); gap:12px}
         @media (max-width:920px){ .gallery{grid-template-columns:1fr} }
         .media-card{background:var(--card);padding:12px;border-radius:12px}
@@ -175,7 +175,7 @@
                     <p class="muted">Based in NYC, DJ Vickey blends Carribean mixing with crowd reading to create memorable nights. Flexible packages and add-ons available.</p>
                 </div>
 
-                <!-- Gallery: YouTube + SoundCloud mixes -->
+               
                 <div id="listen" style="margin-top:18px">
                     <h3 style="margin:0 0 12px">Listen to mixes</h3>
                     <div class="gallery">
@@ -195,7 +195,7 @@
                 </div>
 
     
-<!-- Booking section -->
+
 <section id="book" class="panel" style="margin-top:18px" aria-labelledby="book-heading">
   <h3 id="book-heading" style="margin:0 0 8px">Book DJ Vickey</h3>
   <p class="muted" style="margin:0 0 12px">Fill out the form and I'll respond within 48 hours to confirm availability and next steps.</p>
@@ -243,7 +243,7 @@
   </form>
 </section>
 
-<!-- Keep only this script. DELETE any other booking-related <script> blocks earlier in the file. -->
+
 <script>
 document.addEventListener('DOMContentLoaded', function () {
   const form = document.getElementById('bookingForm');
@@ -283,7 +283,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const mailto = `mailto:sarfarazvickey@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
-    // open user's mail client with prefilled draft
+ 
     window.location.href = mailto;
 
     if (success) {
@@ -295,7 +295,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 </script>
 
-<!-- then the rest of your page (footer etc.) -->
+
 <footer>
   <div>&copy; 2025 DJ Vickey. All rights reserved.</div>
   <div class="social">
